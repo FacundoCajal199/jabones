@@ -14,7 +14,7 @@ function App() {
     
       </Container>
       <VideoPlayer></VideoPlayer>
-
+        <h2>hola</h2>
       <Footer></Footer>
     </>
   );
