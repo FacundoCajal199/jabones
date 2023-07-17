@@ -1,4 +1,4 @@
-import Navbar from "./components/common/navbar";
+import Menu from "./components/Menu"
 import "./App.css";
 import Titular from "./components/Titular";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,7 +8,7 @@ import VideoPlayer from "./components/video";
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Menu></Menu>
       <Container className="mainSection d-flex flex-column align-items-center">
       <Titular></Titular>
       </Container>
