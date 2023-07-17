@@ -1,8 +1,8 @@
 import Menu from "./components/Menu"
+import Footer from "./components/Footer"
 import "./App.css";
 import Titular from "./components/Titular";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Footer from "./components/footer";
 import { Container } from "react-bootstrap";
 import VideoPlayer from "./components/video";
 function App() {
@@ -11,8 +11,11 @@ function App() {
       <Menu></Menu>
       <Container className="mainSection d-flex flex-column align-items-center">
       <Titular></Titular>
+    
       </Container>
-    <VideoPlayer></VideoPlayer>
+      <VideoPlayer></VideoPlayer>
+
+      <h1>hola</h1>
       <Footer></Footer>
     </>
   );

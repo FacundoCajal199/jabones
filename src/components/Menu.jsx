@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.png"
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
     return(
@@ -7,6 +7,6 @@ const Navbar = () => {
     <img src={logo} alt="unlimited.edu logo" width={150}  />
 </div>
 </>
-    );
+    )
 }
 export default Navbar
