@@ -4,7 +4,7 @@ import "./App.css";
 import Titular from "./components/Titular";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import VideoPlayer from "./components/video";
+import VideoPlayer from "./components/Video";
 function App() {
   return (
     <>
