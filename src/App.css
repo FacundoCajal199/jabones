@@ -1,0 +1,22 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(33, 33, 33);
+  color: aliceblue;
+}
+
+.mainSection{
+  flex-grow: 1;
+}
+
+.video-container{
+  width: 50%;
+
+}
+
+
+@media (max-width: 820px) {
+  .video-container{
+    width: 100%;
+  }}
