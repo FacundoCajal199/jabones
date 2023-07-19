@@ -4,7 +4,7 @@ import "./App.css";
 import Titular from "./components/Titular";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import VideoPlayer from "./components/Video";
+import Video from "./components/video";
 function App() {
   return (
     <>
@@ -13,7 +13,7 @@ function App() {
       <Titular></Titular>
     
       </Container>
-      <VideoPlayer></VideoPlayer>
+      <Video></Video>
       <Footer></Footer>
     </>
   );
