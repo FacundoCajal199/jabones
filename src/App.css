@@ -10,13 +10,4 @@
   flex-grow: 1;
 }
 
-.video-container{
-  width: 50%;
 
-}
-
-
-@media (max-width: 820px) {
-  .video-container{
-    width: 100%;
-  }}
