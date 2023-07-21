@@ -25,6 +25,7 @@ function App() {
       <SubTitular></SubTitular>
       <CardBeneficios></CardBeneficios>
       <Oferta></Oferta>
+      
       </section>
       <Footer></Footer>
     </>
