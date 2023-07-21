@@ -4,7 +4,7 @@ import imagen4 from "../assets/costos.png"
 import imagen5 from "../assets/ultima.png"
 import imagen2 from "../assets/2.png"
 
-const Items =()=>{
+const Item =()=>{
 return(
 <>
 <div className="d-flex flex-column align-items-center">
@@ -44,4 +44,4 @@ Puedes ofrecer jabones para el cuerpo, el rostro, para bebés, para pieles sensi
 </>
 );
 }
-export default Items;
+export default Item;
