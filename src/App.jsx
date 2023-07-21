@@ -9,7 +9,7 @@ import BotonAcceder from "./components/BotonAcceder";
 import CardTwo from "./components/CardTwo";
 import SubTitular from "./components/SubTitular";
 import CardBeneficios from "./components/CardBeneficios";
-import Oferta from "./components/oferta";
+import Oferta from "./components/Oferta";
 function App() {
   return (
     <>
