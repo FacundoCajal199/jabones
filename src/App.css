@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: rgb(33, 33, 33);
+  background:rgb(107, 0, 189);
+  background: radial-gradient(circle, rgb(107, 0, 189) 0%,rgb(107, 0, 189) 25%, rgb(45, 3, 65) 87%, rgba(0,0,0,1) 100%, rgba(205,0,255,1) 100%, rgba(0,0,0,1) 100%);
+  
   color: aliceblue;
 }
 
@@ -14,7 +16,106 @@
 .video-container{
   width: 50%;
 }
+.style-titulos{
+  color: transparent;
+  background-image: linear-gradient(
+    20deg
+    ,
+    #ae00d9,
+    #08ffef
+    );
+    background-clip:text;
+    -webkit-background-clip:text ; 
+    font-weight: 900;
+ }
+ .Card{
+  background-color: beige;
+  color: black;
+  border-radius: 30px ;
+  padding: 4rem;
+  width: 95%;
+  position: relative;
+  bottom: 2rem;
+ }
+ .CardTwo{
+ margin-top: 2rem;
+  background-color: beige;
+  color: black;
+  border-radius: 30px ;
+  padding: 4rem;
+  width: 95%;
+ }
+ .botonAcceder{
+  background-color: #08ffef;
+  color: aliceblue;
+  width: 40%;
+  border-radius: 40px ;
+  padding:3rem;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+  animation: brillo 2s infinite;
+ }
+ .m6{
+  padding-bottom: 5rem;
+ }
+ .grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+ }
+ .cardBeneficios{
+  background-color: aliceblue;
+  border-radius: 30px;
+  padding: 2rem;
+  color: black;
+ }
+ @keyframes brillo {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.621);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.688);
+  }
+}
+
 @media (max-width: 820px) { .video-container{
   width: 100%;
  
-}}
+}
+.botonAcceder{
+  background-color: #08ffef;
+  color: aliceblue;
+  width: 90%;
+  border-radius: 40px ;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+  animation: brillo 2s infinite;
+ }
+ .Card{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 30px ;
+  padding: 2rem;
+  width: 95%;
+  position: relative;
+  bottom: 2rem;
+ }
+ .CardTwo{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 30px ;
+  padding: 2rem;
+  width: 95%;
+ }
+ .grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+ }
+}
