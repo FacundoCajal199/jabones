@@ -6,8 +6,6 @@ return(
     <img src={img} alt="precios" className="ajustarPrecio"/>
     <button className="boton">Acceder al entrenamiento </button>
 </div>
-
-
 </>
 );
 }

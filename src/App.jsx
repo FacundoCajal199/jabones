@@ -1,8 +1,8 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import "./App.css";
 import Titular from "./components/Titular";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Video from "./components/Video";
 import Card from "./components/Card";
 import BotonAcceder from "./components/BotonAcceder";
@@ -21,9 +21,8 @@ function App() {
       <Menu></Menu>
       <section className="mainSection">
         <Titular></Titular>
-        <Video />
+        <Video></Video>
         <Card></Card>
-
         <BotonAcceder></BotonAcceder>
         <CardTwo></CardTwo>
         <SubTitular></SubTitular>
