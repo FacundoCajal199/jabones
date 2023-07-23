@@ -3,7 +3,7 @@ import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import "./App.css";
 import Titular from "./components/Titular";
-import Video from "./components/Video";
+import Player from "./components/Player"
 import Card from "./components/Card";
 import BotonAcceder from "./components/BotonAcceder";
 import CardTwo from "./components/CardTwo";
@@ -21,7 +21,7 @@ function App() {
       <Menu></Menu>
       <section className="mainSection">
         <Titular></Titular>
-        <Video></Video>
+        <Player></Player>
         <Card></Card>
         <BotonAcceder></BotonAcceder>
         <CardTwo></CardTwo>
