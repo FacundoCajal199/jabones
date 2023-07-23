@@ -15,6 +15,8 @@ import Dudas from "./components/Dudas";
 import Preguntas from "./components/Preguntas";
 import CierreVenta from "./components/CierreVenta";
 import Precio from "./components/Precio";
+import CarouselFadeExample from "./components/Dibulgacion";
+import Final from "./components/Final";
 function App() {
   return (
     <>
@@ -24,6 +26,7 @@ function App() {
         <Player></Player>
         <Card></Card>
         <BotonAcceder></BotonAcceder>
+        <CarouselFadeExample></CarouselFadeExample>
         <CardTwo></CardTwo>
         <SubTitular></SubTitular>
         <CardBeneficios></CardBeneficios>
@@ -34,6 +37,7 @@ function App() {
         <CierreVenta></CierreVenta>
         <Precio></Precio>
         <Dudas></Dudas>
+        <Final></Final>
       </section>
       <Footer></Footer>
     </>
