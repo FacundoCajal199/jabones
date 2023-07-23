@@ -113,7 +113,7 @@ const faqData = [
   // Agrega más preguntas y respuestas aquí
 ];
 
-const FAQSection = () => {
+const Preguntas = () => {
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(null);
 
   const handleQuestionClick = (index) => {
@@ -139,4 +139,4 @@ const FAQSection = () => {
   );
 };
 
-export default FAQSection;
+export default Preguntas;

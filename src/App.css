@@ -93,13 +93,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
 
 }
 .faq-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff2d;
+  background-color:#ffffff23;
   border-radius: 50px;
   padding: 4rem;
   width: 60%;
@@ -125,6 +126,40 @@
   padding: 10px;
   border-radius: 4px;
 }
+
+.text-yelouw{
+  color:#08b670 ;
+}
+.text-green{
+  color: #55b700;
+}
+.text-celeste{
+  color: #08ffef;
+}
+.ajustarPrecio{width: 60%;
+background-size: cover;
+}
+
+.color{
+  background-color: #ffffff23;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left:4rem ;
+  padding-right:4rem ;
+ border-radius: 30px;
+  }
+  .boton{
+    background-color: #d0d0d0;
+   color: rgb(0, 0, 0);
+   transition: background-color 0.3s, color 0.3s;
+   animation: brillo 2s infinite;
+   padding: 1rem;
+   border-radius: 50px;
+   border: none;
+   font-weight: 700;
+   font-size: 1rem;
+  
+  }
  @keyframes brillo {
   0% {
     box-shadow: 0 0 0 rgba(255, 255, 255, 0.621);
@@ -141,15 +176,30 @@
   width: 100%;
  
 }
+.ajustarPrecio{width: 100%;
+  background-size: cover;
+  }
 .p-edit{
   padding-left: 0;
 }
+.imagen{
+  background-size: cover;
+  width: 100%;
+}
+.color{
+  background-color: #ffffff23;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left:1rem ;
+  padding-right:1rem ;
+ border-radius: 30px;
+  }
 .faq-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff51;
+  background-color: #ffffff23;
   border-radius: 50px;
  width: 100%;
  padding: 3rem 2rem;
